@@ -15,7 +15,7 @@ namespace MathsClassAss
             return (Add);
         }
 
-
+        //Maths Subtraction
         public int Subtract(int value1, int value2)
         {
 
@@ -23,12 +23,14 @@ namespace MathsClassAss
             return (Sub);
         }
 
+        //Maths Multiplication
         public int Multiply(int value1, int value2)
         {
             int Times = value1 * value2;
             return (Times);
         }
 
+        //Maths Divsion
         public int Division(int value1, int value2)
         {
             int divide = value1 - value2;

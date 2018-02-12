@@ -11,26 +11,10 @@ namespace MathsClassAss
         static void Main(string[] args)
         {
             /*
-             * Hello Guys,
-
-In respect to the current topic you all should attempt the following excercise
-
+         
 1) Declare a Math class that has 4 non-static methods Add, Substract, Multiply & Divide,
 each of which takes 2 parameters. Call each method from the Main() and output the their result to the console window.
-3) Modify the program from Exercise 1 so that you do not have to create an instance of Math
-to call the four methods
-4) Add a constructor to the Math class this constructor will take 2 parameters 
-(Int32 param1 & Int32 param2) assign these parameters to 2 global fields (Int32 param1; Int32 _param2)
-
-I expect you all to create a repo on your GitHub account and push this excercise to it will check it 
-on Tuesday when am around.
-
-Happy Coding!!!
-
-Prolifik Lexzy
-
-Code Instructor.
-             * */
+*/
             Console.WriteLine("Enter first value");
             int v1 = Convert.ToInt32(Console.ReadLine());
 
