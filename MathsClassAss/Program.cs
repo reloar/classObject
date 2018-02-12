@@ -22,6 +22,7 @@ namespace MathsClassAss
             int v2 = Convert.ToInt32(Console.ReadLine());
 
             int result=0;
+            //MathClass MC = new MathClass(); 
                        
             char select;
 
@@ -34,7 +35,7 @@ namespace MathsClassAss
                     case 'a':
                     case 'A':
                         
-                    result = MathClass.Addition(v1, v2);
+                    result = MathClass.Addition(v1, v2);// result= MC.Addition(v1,v2);
                     break;
 
                     case 's':
