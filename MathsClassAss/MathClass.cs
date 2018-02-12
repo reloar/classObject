@@ -8,15 +8,8 @@ namespace MathsClassAss
 {
    class MathClass  //class MathClass
     {
-       /* public int param1, param2;
-        public MathClass(int param1, int param2)
-        {
-            param1 = param1;
-            param2 = param2;
-        }*/
-        //Maths Addtion
-        public int Addition(int value1, int value2) //public int Addition(int value1, int value2)
-        {
+       
+        public int Addition(int value1, int value2) { 
             int Add = value1 + value2;
             return (Add);
         }
